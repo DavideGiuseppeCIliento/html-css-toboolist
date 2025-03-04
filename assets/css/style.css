@@ -109,6 +109,7 @@ header {
 
 .allineamentoverticale {
   vertical-align: middle;
+  align-items: center;
 }
 
 /* B. MAIN */
@@ -136,7 +137,16 @@ main {
 
 /* E. TENDINA 1 */
 
-.titolotendina {
+.titoloeitemtendina {
   display: flex;
   gap: 4px;
+  align-items: center;
+}
+
+.icona {
+  font-size: 12px;
+}
+
+.iconacolorata {
+  color: #5cc8a9;
 }
