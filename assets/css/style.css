@@ -137,16 +137,30 @@ main {
 
 /* E. TENDINA 1 */
 
-.titoloeitemtendina {
+.allineamentotitoloeitemtendina {
   display: flex;
-  gap: 4px;
+  gap: 6px;
   align-items: center;
+  padding-bottom: 10px;
 }
 
 .icona {
   font-size: 12px;
+  font-weight: 800;
 }
 
-.iconacolorata {
+.iconacolorataverde {
   color: #5cc8a9;
+  border: 1px solid #5cc8a9;
+  padding: 1px 4px;
+}
+
+.iconaround {
+  border-radius: 50%;
+}
+
+.iconacoloratarosso {
+  color: red;
+  border: 1px solid red;
+  padding: 1px 4px;
 }
