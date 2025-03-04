@@ -69,10 +69,26 @@ h4 {
 /* A. HEADER */
 
 header {
-  padding: 15px;
+  padding: 20px;
   background-color: white;
 }
 
 .logo {
   display: flex;
 }
+
+/* B. MAIN */
+main {
+  width: 100%;
+}
+
+/* C. SEZIONE PRINCIPALE */
+
+.sezioneprincipale {
+  width: 60%;
+  background-color: white;
+  margin: 50px auto;
+  padding: 10px 35px;
+}
+
+/* D. DOPPIA OPTION */
