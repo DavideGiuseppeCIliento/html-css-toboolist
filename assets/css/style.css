@@ -1,3 +1,5 @@
+/* classi generiche */
+
 * {
   padding: 0;
   margin: 0;
@@ -6,4 +8,71 @@
 
 body {
   background-color: #f5f8fa;
+  font-family: "Nunito", sans-serif;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+/* UTILITY */
+
+.bceleste {
+  background-color: #f5f8fa;
+}
+
+.bazzurro {
+  background-color: #42ade7;
+}
+
+.bviola {
+  background-color: #9b74dd;
+}
+
+.barancio {
+  background-color: #f0a22a;
+}
+
+.bverdeacqua {
+  background-color: #5cc8a9;
+}
+
+.bfucsia {
+  background-color: #d8629a;
+}
+
+.bverdechiaro {
+  background-color: #aec726;
+}
+
+.etichettacolorata {
+  text-align: center;
+  padding: 3px;
+  color: white;
+  font-size: 10px;
+  border-radius: 20%;
+}
+
+/* A. HEADER */
+
+header {
+  padding: 15px;
+  background-color: white;
+}
+
+.logo {
+  display: flex;
 }
