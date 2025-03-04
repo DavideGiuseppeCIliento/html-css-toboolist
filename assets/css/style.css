@@ -32,38 +32,68 @@ h4 {
 
 .bceleste {
   background-color: #f5f8fa;
+  color: white;
 }
 
 .bazzurro {
   background-color: #42ade7;
+  color: white;
 }
 
 .bviola {
   background-color: #9b74dd;
+  color: white;
 }
 
 .barancio {
   background-color: #f0a22a;
+  color: white;
 }
 
 .bverdeacqua {
   background-color: #5cc8a9;
+  color: white;
 }
 
 .bfucsia {
   background-color: #d8629a;
+  color: white;
 }
 
 .bverdechiaro {
   background-color: #aec726;
+  color: white;
 }
 
 .etichettacolorata {
   text-align: center;
-  padding: 3px;
+  padding: 4px 7px;
   color: white;
-  font-size: 10px;
-  border-radius: 20%;
+  font-size: 12px;
+}
+
+.etichettabianca {
+  text-align: center;
+  padding: 4px 7px;
+  color: grey;
+  font-size: 12px;
+  border: 1px solid gray;
+}
+
+.angolosmussato {
+  border-radius: 5px;
+}
+
+.angolorotondo {
+  border-radius: 20px;
+}
+
+.tendina {
+  padding: 0 0 30px 0;
+}
+
+.fontgrassetto {
+  font-size: 900;
 }
 
 /* A. HEADER */
@@ -77,7 +107,12 @@ header {
   display: flex;
 }
 
+.allineamentoverticale {
+  vertical-align: middle;
+}
+
 /* B. MAIN */
+
 main {
   width: 100%;
 }
@@ -88,7 +123,20 @@ main {
   width: 60%;
   background-color: white;
   margin: 50px auto;
-  padding: 10px 35px;
+  padding: 20px 50px;
 }
 
 /* D. DOPPIA OPTION */
+
+.doppiaoption {
+  display: flex;
+  gap: 4px;
+  padding: 0 0 30px 0;
+}
+
+/* E. TENDINA 1 */
+
+.titolotendina {
+  display: flex;
+  gap: 4px;
+}
